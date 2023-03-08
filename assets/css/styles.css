@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white:#EDF1D6;
+    --gray:#2C3333;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    text-decoration: none;
+}
+#main{
+}
+#head{
+    background-color: var(--gray) ;
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    padding: 0 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--white);
+}
+#head h2,#head h1{
+    line-height: 4rem;
+}
+#content{
+
+    padding: 3rem;
+}
+#content .pic ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+#content .pic img{
+    width: calc(20rem);
+}
+#score{
+
+    padding: 10rem 5rem;
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+}
+#score .doan{
+    height: 3rem;
+}
+#score .doan label{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+#score .doan input{
+    margin: auto;
+    height: 2rem;
+    border-radius: 2rem;
+}
+#score button{
+    border-radius: 2px;
+    border: var(--gray) solid 2px;
+    width: 5rem;
+    height: 3rem;
+    cursor: pointer;
+}
+#score button h6{
+    font-size: 1.5rem;
+    color: var(--gray);
+    font-family: 'Courier New', Courier, monospace;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 3rem;
+    background-color: var(--gray);
+}
