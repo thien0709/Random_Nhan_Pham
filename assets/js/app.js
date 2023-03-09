@@ -46,8 +46,7 @@ btn.onclick = function(e){
         alert("Bạn đã đoán đúng!");
     }
     else alert("Bạn đã đoán sai!");
-    lan.innerText = `${round}`
-    diem.innerText = `${score}`
-
+    lan.innerText = `${round}`;
+    diem.innerText = `${score}`;
 }
 
