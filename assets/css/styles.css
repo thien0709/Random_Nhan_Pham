@@ -26,6 +26,32 @@ html{
 #head h2,#head h1{
     line-height: 4rem;
 }
+#head .truoc{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#head .vong{
+    display: flex;
+}
+#head .vong .lan{
+    padding: 0 1rem;
+    line-height: 4rem;
+}
+#head .score{
+    width: 15rem;
+    padding: 0 3rem;
+    right: 5rem;
+    display: flex;
+
+}
+#head .score h2{
+    width: 80%;
+}
+#head .score h3{
+    line-height: 4rem;
+    padding: 0 1rem;
+}
 #content{
 
     padding: 3rem;
@@ -42,7 +68,6 @@ html{
     width: calc(20rem);
 }
 #score{
-
     padding: 10rem 5rem;
     width: 50%;
     height: 5rem;
@@ -62,6 +87,9 @@ html{
     margin: auto;
     height: 2rem;
     border-radius: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-align: center;
 }
 #score button{
     border-radius: 2px;
